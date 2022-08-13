@@ -27,6 +27,7 @@ def get_price(ticker):
         app.logger.info(f"Yahoo status code: {response.status_code}.")
         return Response({}, status=404, mimetype='application/json')
 
+
     return Response(json.dumps(company_info), status=200, mimetype='application/json')
 
     """
