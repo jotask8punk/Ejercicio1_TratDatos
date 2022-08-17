@@ -1,4 +1,4 @@
-from flask import Flask, Response
+from flask import Flask, Response """importar librerias flask"""
 import requests
 import json
 import logging
@@ -20,6 +20,14 @@ def get_price(ticker):
     def mi_funcion(nombre, apellido):
     nombre_completo = nombre, apellido
     print(nombre_completo)
+
+    """Función para concatenar ciudad"""
+    """David Romero"""
+
+    def show_sector(ciudad, pais):
+        direccion = ciudad, pais
+
+    print(direccion)
 
 
 
