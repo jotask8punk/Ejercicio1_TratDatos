@@ -24,6 +24,9 @@ def get_price(ticker):
     """Función para concatenar ciudad"""
     """David Romero"""
 
+    """Función para concatenar ciudad"""
+    """Juan Pablo Narvaez"""
+
     def show_sector(ciudad, pais):
         direccion = ciudad, pais
 
@@ -76,6 +79,14 @@ def get_price(ticker):
     except Exception as e:
         app.logger.info(str(e), exc_info=True)
     """
+
+"""Función para concatenar ciudad"""
+    """David Romero"""
+"""import time
+
+def ahora = time.strftime("%c")
+
+print "Fecha y hora " + time.strftime("%c")"""
 
 
 if __name__ == '__main__':
