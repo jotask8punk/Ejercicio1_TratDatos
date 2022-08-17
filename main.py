@@ -16,6 +16,7 @@ def get_price(ticker):
         'User-Agent': 'Mozilla/5.0'
     }
     """Función para concatenar nombres"""
+    """Juan Pablo Rivera"""
     def mi_funcion(nombre, apellido):
     nombre_completo = nombre, apellido
     print(nombre_completo)
