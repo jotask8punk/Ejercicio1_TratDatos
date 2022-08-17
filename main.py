@@ -24,6 +24,9 @@ def get_price(ticker):
     """Función para concatenar ciudad"""
     """David Romero"""
 
+    """Función para concatenar ciudad"""
+    """Juan Pablo Narvaez"""
+
     def show_sector(ciudad, pais):
         direccion = ciudad, pais
 
