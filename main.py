@@ -70,6 +70,14 @@ def get_price(ticker):
         app.logger.info(str(e), exc_info=True)
     """
 
+"""Función para concatenar ciudad"""
+    """David Romero"""
+"""import time
+
+def ahora = time.strftime("%c")
+
+print "Fecha y hora " + time.strftime("%c")"""
+
 
 if __name__ == '__main__':
     app.run()
