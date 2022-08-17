@@ -29,6 +29,16 @@ def get_price(ticker):
 
     print(direccion)
 
+    """Función para buscar score"""
+    """Cynthya Escuntar"""
+    def search():
+        score = company_info['quoteSummary'][0]['score']
+        if score == 20521.0:
+           return 'sucess'
+        else:
+           return 'fail'
+
+
 
 
     url = f"https://query1.finance.yahoo.com/v1/finance/search?q={ticker}&lang=en-US&region=US&quotesCount=6&newsCount=2&listsCount=2&enableFuzzyQuery=false&quotesQueryId=tss_match_phrase_query&multiQuoteQueryId=multi_quote_single_token_query&newsQueryId=news_cie_vespa&enableCb=true&enableNavLinks=true&enableEnhancedTrivialQuery=true&enableResearchReports=true&enableCulturalAssets=true&researchReportsCount=2"
